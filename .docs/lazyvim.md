@@ -19,6 +19,22 @@
 
 # Navigating
 - Navigate n steps: <n> + h/j/k/l
+- Jump by n words: <n> + w/b/e 
+  - Words separated by punctuations: w/b/e
+  - Words separated by spaces: Shift + w/b/e
+- Go inline:
+  - Beginning of the line: `0`
+  - Beginning of the line (first non-whitespace): `^`
+  - The end of the line: `$`
+- Go to line:
+  - nth line: `:` + n
+  - The nth line before: `:` + -n
+  - The nth line after: `:` + +n
+  - First line of the file: `g` + `g`
+  - Last line of the file: Shift + `g`
+- Jump history:
+  - Jump backward in history: Ctrl + `o`
+  - Jump forward in history: Ctrl + `i`
 
 
 # Modal editing
