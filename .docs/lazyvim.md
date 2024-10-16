@@ -13,9 +13,32 @@
   - From Normal mode: <leader> + `l`
   - To perform sync (install, clean, and update at the same time, usually when "Plugin Updates" notification poped up): Shift + `s`
 - Exit: `q`
+- `Neo-tree.nvim` plugin:
+  - Turn on side-bar: <space> + `e` (root dir)  or  <space> + `e` (cwd)
+  - Create new file (eg: `filename`) or folder (eg: `dir/`): `a`
+  - Rename file/folder: `r`
+  - Cut a file/folder: `x`
+  - Copy a file/folder: `y`
+  - Paste a file/folder: `p`
+  - Navigate up directory: <backspace>
+  - Set the directory to be root: `.`
+
 
 # Getting help
 - In Normal mode: `:help`
+
+# General commands
+- Quit LazyVim: <leader> q q
+- See cwd: `:` + `pwd`
+- Change cwd: `:` + `cd` 
+- Change cwd locally (for current window only): `:lcd`
+- Use Telescope picker:
+  - Find file (with fuzzy search):
+    - Keywords to search are separated by spaces
+    - Open search: <leader> + <leader>
+    - Jump to a search result with Seek: `s`
+
+
 
 # Navigating
 - Navigate n steps: <n> + h/j/k/l
